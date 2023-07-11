@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="choice-element">
+        <h1>ATM</h1>
+        <button class="balance-button" id="check-balance">Check Balance</button>
+        <div class="withdraw-element">
+            <input class="withdraw-input" type="number" id="withdraw-amount" placeholder="Enter withdraw amount">
+            <button class="withdraw-button" id="withdraw">Withdraw</button>
+        </div>
+        <div class="deposit-element">
+            <input class="deposit-input" type="number" id="deposit-amount" placeholder="Enter deposit amount">
+            <button class="deposit-button" id="deposit">Deposit</button>
+        </div>
+        <button class="check-history-element" id="transaction-history">Check Transaction History</button>
+        <button class="clear-history-element" id="clear-history">Clear Transaction History</button>
+        <div id="content" class="content-element"></div>
+    </div>
+    <script src="scripts/atm.js"></script>
+</body>
+</html>
